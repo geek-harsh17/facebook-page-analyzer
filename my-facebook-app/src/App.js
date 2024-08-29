@@ -15,7 +15,7 @@ const App = () => {
     // Initialize Facebook SDK
     window.fbAsyncInit = function () {
       window.FB.init({
-        appId: '812370044392420', 
+        appId: '812370044392420', // app id which you created in facebbok develop-er app
         cookie: true,
         xfbml: true,
         version: 'v20.0'
