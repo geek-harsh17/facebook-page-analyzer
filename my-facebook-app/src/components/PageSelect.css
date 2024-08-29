@@ -1,0 +1,32 @@
+/* src/components/PageSelect.css */
+
+.page-select {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .page-select h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .page-select select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .page-select option {
+    padding: 8px;
+  }
+  

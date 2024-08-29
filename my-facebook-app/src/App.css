@@ -1,0 +1,162 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5; 
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  margin-bottom: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #4267b2; 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+}
+
+.App-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.App-link {
+  color: #f7f7f7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App-link:hover {
+  color: #b0bec5;
+}
+
+/* Login Page */
+.login-container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 20px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.login-container button {
+  background-color: #4267b2; 
+  color: #fff;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-top: 20px;
+}
+
+.login-container button:hover {
+  background-color: #365899; 
+  transform: translateY(-2px);
+}
+
+.login-container img {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/* Page Select Page */
+.page-select-container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 20px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.page-select-container h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.page-select-container select {
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: border-color 0.3s;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.page-select-container select:focus {
+  outline: none;
+  border-color: #4267b2;
+}
+
+/* Page Insights Styles */
+.insights-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; 
+  margin-top: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.insight-card {
+  flex: 1 1 250px; 
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.insight-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.insight-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.insight-card p {
+  font-size: 1.1rem;
+  color: #555;
+}
