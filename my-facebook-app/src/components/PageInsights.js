@@ -15,7 +15,7 @@ const PageInsights = ({ accessToken, pageId }) => {
         const response = await axios.get(`https://graph.facebook.com/${pageId}/insights`, {
           params: {
             access_token: accessToken,
-            metric: 'page_fans,page_engagement',
+            metric: 'page_fans,page_engagement,page_impressions,page_actions_post_reactions_total',
             period: 'total',
             since: '2024-08-20', // Adjust dates as needed
             until: '2024-08-28', // Adjust dates as needed
